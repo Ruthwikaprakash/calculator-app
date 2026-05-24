@@ -1,1 +1,5 @@
-console.log("Calculator App Started");
+const display = document.getElementById("display");
+
+function addToDisplay(value) {
+  display.value += value;
+}
